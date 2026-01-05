@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Produkcija</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b');
+      background-size: cover;
+      background-position: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #00ffd5;
+    }
+    .about {
+      background: #151515;
+      border-radius: 10px;
+      padding: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #000;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+  @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+      section {
+        padding: 40px 15px;
+      }
+      .about {
+        padding: 25px;
+      }
+      footer {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Profesionalna Video Produkcija</h1>
+    <p>Kreiramo vizuelne priče koje privlače pažnju, grade brend i ostavljaju snažan utisak.</p>
+  </div>
+</header>
+
+<section>
+  <h2>Naše usluge</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Promotivni video</h3>
+      <p>Profesionalni promotivni snimci za brendove, proizvode i usluge.</p>
+    </div>
+    <div class="card">
+      <h3>Društvene mreže</h3>
+      <p>Kratki i efektni video klipovi prilagođeni Instagramu, TikToku i YouTube-u.</p>
+    </div>
+    <div class="card">
+      <h3>Event snimanja</h3>
+      <p>Snimanje i montaža događaja, proslava, koncerata i posebnih trenutaka.</p>
+    </div>
+    <div class="card">
+      <h3>Montaža & postprodukcija</h3>
+      <p>Profesionalna obrada videa, korekcija boja, zvuk i efekti.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="about">
+    <h2>O nama</h2>
+    <p>
+      Mi smo firma koja se profesionalno bavi video produkcijom već više od <strong>4 godine</strong>.
+      Tokom tog perioda radili smo na brojnim projektima različitih formata – od promotivnih i
+      korporativnih videa, do sadržaja za društvene mreže i snimanja događaja.
+    </p>
+    <p>
+      Iskustvo, posvećenost i praćenje savremenih trendova omogućavaju nam da svakom klijentu
+      ponudimo kvalitetno, moderno i efikasno video rešenje prilagođeno njegovim potrebama.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>
+    📧 Email: <a href="mailto:vision.media.produkcija@gmail.com">vision.media.produkcija@gmail.com</a><br />
+    📸 Instagram: <a href="https://www.instagram.com/vision_media_serbia" target="_blank">@vision_media_serbia</a>
+  </p>
+
+  <a href="tel:+381621411707" style="
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #00ffd5;
+    color: #000;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+  ">📞 Pozovi odmah</a>
+</section>
+
+<footer>
+  © 2026 Video Produkcija. Sva prava zadržana.
+</footer>
+
+</body>
+</html>
